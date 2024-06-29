@@ -1,5 +1,5 @@
 type Mission {
-  id: Integer!
+  id: Int!
   notes: [String]
 
   date: Date

@@ -1,5 +1,5 @@
 type Flight {
-  id: Integer!
+  id: Int!
   notes: [String]
 
   start_time: Date!

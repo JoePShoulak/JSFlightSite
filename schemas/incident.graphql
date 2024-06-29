@@ -1,5 +1,5 @@
-type Flight {
-  id: Integer!
+type Incident {
+  id: Int!
   notes: [String]
   
   description: String!
