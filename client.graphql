@@ -1,0 +1,21 @@
+type Client {
+  id: Integer!
+  notes: [String]
+
+  contact_name: String!
+  business_name: String
+  phone: String!
+  email: String
+  address: String
+
+  gigs: [Gig]
+}
+
+# Add one client
+# db.client.insertOne({contact_name: "joe", business_name: "jsflight", phone: "1234567890", email: "joe@example.com", address: "123 memory ln"})
+
+# Show all clients
+# db.client.find({})
+
+# Delete all clients
+# db.client.deleteMany({})

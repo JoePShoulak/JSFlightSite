@@ -1,0 +1,19 @@
+type Flight {
+  id: Integer!
+  notes: [String]
+
+  start_time: Date!
+  end_time: Date
+  completed: Boolean!
+
+  # rpic: Crew
+  # rp: Crew
+  # vo(s): [Crew]
+  # drone: Gear!
+  # battery: Gear!
+  # sd_card: Gear!
+  # additional_gear: [Gear!]
+  # incidents: [Incident!]
+
+  objectives: [Objective!]!
+}

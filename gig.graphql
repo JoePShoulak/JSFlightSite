@@ -1,0 +1,16 @@
+type Gig {
+  id: Integer!
+  notes: [String]
+  
+  date_assigned: Date!
+  date_completed: Date
+  completed: Boolean!
+  pay: Float!
+  paid: Boolean!
+  date_paid: Date
+
+  # payment_terms (struct?)
+
+  missions: [Mission]!
+  objectives: [Objective]!
+}

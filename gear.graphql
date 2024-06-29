@@ -1,0 +1,7 @@
+type Gear {
+  id: Integer!
+  notes: [String]
+
+  name: String!
+  category: String!
+}

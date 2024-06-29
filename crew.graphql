@@ -1,0 +1,9 @@
+type Crew {
+  id: Integer!
+  notes: [String]
+  
+  name: String!
+  phone: String!
+  certified: Boolean!
+  trained: Boolean!
+}

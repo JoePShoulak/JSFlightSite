@@ -1,0 +1,16 @@
+type Mission {
+  id: Integer!
+  notes: [String]
+
+  date: Date
+  start_time: Date
+  end_time: Date
+  completed: Boolean!
+
+  # crew: [Crew]
+  # gear: [Gear]
+  # incidents(?)
+
+  objectives: [Objective!]!
+  flights: [Flight!]!
+}

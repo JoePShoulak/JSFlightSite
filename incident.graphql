@@ -1,0 +1,13 @@
+type Flight {
+  id: Integer!
+  notes: [String]
+  
+  description: String!
+  severe_harm: Boolean!
+  damage_over_500: Boolean!
+  reported: Boolean
+  date: Date!
+  time: Time!
+
+  flight: Flight
+}

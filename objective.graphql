@@ -1,0 +1,7 @@
+type Objective {
+  id: Integer!
+  notes: [String]
+
+  description: String!
+  completed: Boolean!
+}
