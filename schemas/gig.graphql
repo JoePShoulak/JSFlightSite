@@ -1,5 +1,5 @@
 type Gig {
-  id: Integer!
+  id: Int!
   notes: [String]
   
   date_assigned: Date!

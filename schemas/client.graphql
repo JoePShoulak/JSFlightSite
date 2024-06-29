@@ -1,5 +1,5 @@
 type Client {
-  id: Integer!
+  id: Int!
   notes: [String]
 
   contact_name: String!

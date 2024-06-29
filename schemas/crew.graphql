@@ -1,5 +1,5 @@
 type Crew {
-  id: Integer!
+  id: Int!
   notes: [String]
   
   name: String!

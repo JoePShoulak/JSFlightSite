@@ -1,5 +1,5 @@
 type Objective {
-  id: Integer!
+  id: Int!
   notes: [String]
 
   description: String!

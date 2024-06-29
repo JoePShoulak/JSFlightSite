@@ -1,0 +1,7 @@
+type Query {
+    Q_DUMMY: Boolean!
+}
+
+type Mutation {
+    M_DUMMY: Boolean!
+}
