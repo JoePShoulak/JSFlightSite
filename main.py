@@ -11,7 +11,7 @@ def main():
     type_defs = ariadne.load_schema_from_path('schemas')
     application.schema = make_federated_schema(type_defs, [query, mutation] + scalars)
 
-    @application.route('/api')
+    @application.route('/api', methods = ['POST'])
     def api_call() -> Response:
         data = request.get_json()
         success, result = ariadne.graphql_sync(application.schema, data, context_value=request)
