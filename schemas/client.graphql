@@ -11,6 +11,16 @@ type Client {
   gigs: [Gig]
 }
 
+type ClientDoesNotExistError {
+  message: String!
+}
+
+union ClientResponse = Client | ClientDoesNotExistError
+
+extend type Query {
+  getClient(id: Int!): ClientResponse
+}
+
 # Add one client
 # db.client.insertOne({contact_name: "joe", business_name: "jsflight", phone: "1234567890", email: "joe@example.com", address: "123 memory ln"})
 
