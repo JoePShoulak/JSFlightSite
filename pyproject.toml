@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.10.11"
 ariadne = "^0.23.0"
 flask = "^3.0.3"
+pymongo = "^4.8.0"
 
 [build-system]
 requires = ["poetry-core"]
